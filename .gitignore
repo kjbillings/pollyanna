@@ -1,0 +1,4 @@
+node_modules
+src/families/*.js
+!Example.js
+!index.js

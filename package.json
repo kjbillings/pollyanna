@@ -1,0 +1,16 @@
+{
+  "name": "pollyanna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "billings.js",
+  "type": "module",
+  "scripts": {
+    "invite": "node src/index.js invitation",
+    "match": "node src/index.js match"
+  },
+  "author": "kjbillings@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
