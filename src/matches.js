@@ -27,10 +27,7 @@ export const generatePollyannaList = (people) => {
     } = getPeopleWithGiftsByName(people)
  
     console.log(`We have ${participantCount} people with gifts!`)
-    if (participantCount % 2 !== 0) {
-        throw new Error('We need an even number of participants... :(')
-    }
-    
+
     const getRandomNameOfPersonWithGifts = () => namesOfPeopleWithGifts[getRandomIdx(participantCount)]
     
     const usedNames = {}
